@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('homerecipe.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;position: relative; 
+}
+
+h1 {
+    margin-top: 0; 
+    font-size: 30px; 
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    width: 120px; 
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(161, 172, 181, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video {
+    width: calc(33.33% - 40px); 
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 200px; 
+}
+
+.video-title {
+    font-weight: bold;
+    color: #fff; 
+    margin-bottom: 5px; 
+    background-color: transparent;
+}
+
+ul {
+    font-size: 25px;
+    font-weight: bold; 
+    border: 1px solid fff;
+}
+
+
+
+
+
+.contact2section {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
